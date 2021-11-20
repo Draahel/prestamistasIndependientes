@@ -1,0 +1,61 @@
+body{
+    background-color:rgba(164, 189, 212, 0.7) !important;
+}
+
+.container-custom{
+    width: 600px;
+    padding-top: 200px;
+    margin-left: 100px;
+}
+
+.register{
+    background-color: rgba(246, 246, 250, 0.986);
+    border-radius: 25px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.inicio{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.inicio h1{
+    font-size: 30px;
+    color:rgb(6, 25, 107);
+    
+}
+
+.inicio h2{
+    font-size: 18px;
+}
+
+.inicio h3{
+    font-size: 11px;
+    
+}
+.cuerpo{
+    width: 400px;
+    margin: 30px auto;
+}
+
+
+.ingresar{
+    background-color:#1432d8 !important;
+    font-size: 30px !important;
+    text-align: center;
+}
+
+.ingresar:hover{
+    background-color:#ee1725 !important;
+}
+
+.ingresar .btn{
+    color: white;
+}
+
+.form-control,.ingresar,.form-check{
+    margin:4px 0 ;
+}
+

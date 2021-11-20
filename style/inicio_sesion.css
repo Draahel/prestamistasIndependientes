@@ -5,47 +5,53 @@ body{
     
 }
 
+.container{
+    width: 600px !important;
+}
+
+.container h1{
+    font-size: 30px;
+}
+
 .header{
     background-color: rgba(164, 189, 212, 0.7);
-    border-radius: 15px;
-    margin-top: 50px;
-    height: 200px;
+    border-radius: 10px;
+    margin-top: 40px;
+    height: 100px;
     display: flex;
     align-items: center;
 }
 
 .header p{
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(6, 25, 107);
     font-weight: bold;
 
 }
 
 .sombra4 {
-    color: #69D2E7;
-    text-shadow:
-    4px 4px 0px #E0E4CC;
-    font-size: 100px;
+    color: #1432d8;
+    font-size: 20px;
     font-family: 'Lobster', cursive;
 }
 
 .login-data,.data-credit{
     background-color: rgba(164, 189, 212, 0.7);
-    margin-top: 100px ;
+    margin-top: 50px;
     border-radius: 15px;
-    padding: 50px;
+    padding: 30px;
 }
 
 .login{
-    width: 50%;
+    width: 400px;
     margin: auto;
-    
 }
+
 
 .login-button{
     background-color:#1432d8 !important;
     color: snow !important;
-    font-size: 30px !important;
+    font-size: 20px !important;
 }
 
 .login-button:hover{
@@ -53,12 +59,12 @@ body{
 }
 
 .login label{
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
 .login input[type=password],.login input[type=email]{
-    height: 50px;
+    height: 30px;
 }
 
 
@@ -69,7 +75,7 @@ body{
 
 .crear{
     position: relative;
-    background-color:white;
+    background-color:rgba(164, 189, 212, 0.7);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,14 +85,14 @@ body{
 .crear hr{
     border:0;
     border-bottom: 1px solid black;;
-    width: 100%;
-    margin: 30px 0px;
+    width: 50%;
+    margin: 20px 0px;
 }
 
 .crear p{
     position: absolute;
-    background-color:white;
-    padding: 0px 5px;
+    background-color:rgba(164, 189, 212, 0.7);
+    padding: 0px 4px;
 
 }
 

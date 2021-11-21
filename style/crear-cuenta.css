@@ -73,7 +73,13 @@ body{
 
 #imagen{
     width: 500px;
-    height: 530px;
+    height: 600px;
     border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row{
+    align-items: center
 }
 

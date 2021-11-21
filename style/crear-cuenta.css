@@ -2,16 +2,28 @@ body{
     background-color:rgba(164, 189, 212, 0.7) !important;
 }
 
+.call{
+    display: none;
+}
+
+.container{
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
 .container-custom{
     width: 600px;
-    padding-top: 200px;
-    margin-left: 100px;
 }
 
 .register{
     background-color: rgba(246, 246, 250, 0.986);
     border-radius: 25px;
-    margin-top: 40px;
     padding-bottom: 40px;
     align-items: center;
 }
@@ -57,5 +69,11 @@ body{
 
 .form-control,.ingresar,.form-check{
     margin:4px 0 ;
+}
+
+#imagen{
+    width: 500px;
+    height: 530px;
+    border-radius: 10px;
 }
 

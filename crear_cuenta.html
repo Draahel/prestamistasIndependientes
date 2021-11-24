@@ -31,8 +31,8 @@
                     </div>
                     <div class="cuerpo">
                         <form>
-                            <input class="form-control form-control-sm" type="text" placeholder="Nombre completo" aria-label=".form-control-sm example">
-                            <input class="form-control form-control-sm" type="text" placeholder="Correo electrónico" aria-label=".form-control-sm example">
+                            <input class="form-control form-control-sm" type="text" placeholder="Nombre completo" aria-label=".form-control-sm example" required>
+                            <input class="form-control form-control-sm" type="email" placeholder="Correo electrónico" aria-label=".form-control-sm example" required>
                             <div class="row g-3">
                                 <div class="col-sm-3">
                                     <select class="form-select form-select-sm" aria-label=".form-select-sm example">
@@ -41,13 +41,13 @@
                                     </select>
                                   </div>
                                 <div class="col-sm-9">
-                                  <input type="text" class="form-control form-control-sm" placeholder="Número de identificación" aria-label="City">
+                                  <input type="text" class="form-control form-control-sm" placeholder="Número de identificación" aria-label="City" required>
                                 </div>
                               </div>
-                            <input class="form-control form-control-sm" type="text" placeholder="Número de celular" aria-label=".form-control-sm example">
-                            <input class="form-control form-control-sm" type="text" placeholder="Contraseña" aria-label=".form-control-sm example">
-                            <input class="form-control form-control-sm" type="text" placeholder="Confirmar contraseña" aria-label=".form-control-sm example">
-                            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                            <input class="form-control form-control-sm" type="text" placeholder="Número de celular" aria-label=".form-control-sm example" required>
+                            <input class="form-control form-control-sm" type="password" placeholder="Contraseña" aria-label=".form-control-sm example" required>
+                            <input class="form-control form-control-sm" type="password" placeholder="Confirmar contraseña" aria-label=".form-control-sm example" required>
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example" required>
                                 <option selected>Género</option>
                                 <option value="1">Masculino</option>
                                 <option value="2">Femenino</option>
@@ -63,16 +63,13 @@
                             </div>
 
                             <div class="call">
-                                <input class="form-control form-control-sm" type="text" placeholder="Ingrese el monto máximo a prestar" aria-label=".form-control-sm example">
+                                <input class="form-control form-control-sm" type="text" placeholder="Ingrese el monto máximo a prestar" aria-label=".form-control-sm example" required>
                             </div>
-
-                              
-                
-        
+                            <div class="ingresar">
+                                <button type="submit" class="btn" id="acceder">Registrarte</button>
+                            </div>
                         </form>
-                        <div class="ingresar">
-                            <button type="submit" class="btn" id="acceder">Registrarte</button>
-                        </div>
+                        
         
                     </div>
                     <div class="inicio">

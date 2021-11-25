@@ -156,10 +156,6 @@
 
 /* LISTA DESPLEGABLE */
 
-#menu ul li {
-    background-color:#2e518b;
-}
-
 #menu ul {
   list-style:none;
   margin:0;
@@ -180,7 +176,11 @@
   float:left;
   margin:0;
   padding:0;
-  background-color: #8c93ab;
+  
+}
+
+#menu ul li ul li{
+    background-color: #8c93ab;
 }
 
 #menu ul li:hover {
@@ -207,4 +207,8 @@
 
 #menu ul li:hover > ul {
   display:block;
+}
+
+.notificaciones{
+    position: relative;
 }

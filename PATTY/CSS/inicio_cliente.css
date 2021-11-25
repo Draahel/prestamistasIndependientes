@@ -58,6 +58,19 @@
     z-index: 8;
 }
 
+.circle{
+    padding: 4px ;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(155, 170, 197);
+}
 
+.circle:hover{
+    background-color: red;
+}
 
-/* background: rgba(0,0,0,0.5); */
+#div_opciones ul{
+    display: flex;
+    align-items: center;
+}

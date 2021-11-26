@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.config ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.config,.titleAreaConfig{
+    width: 800px;
+    background-color:rgba(164, 189, 212, 0.7);
+    margin: auto;
+    
+}
+
+.config ul a li h3{
+    display: inline-block;
+    width: 30%;
+    padding: 7px 20px;
+    font-size: 20px;
+    
+}
+
+.config ul a li,.titleAreaConfig{
+    border-bottom: 1px  solid black;
+    list-style: none;
+}
+
+.config-content-items{
+    width: 60%;
+    display:inline-block
+}
+
+.config ul a{
+    text-decoration: none;
+
+}
+
